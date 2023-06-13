@@ -3,7 +3,7 @@ import FeaturesCom from '../components/Features/Features';
 import WhyUs from '../components/why_us/WhyUs';
 import Events from '../components/Events/Events';
 import Mentorship from '../components/Mentorship/Mentorship';
-import Blog from '../components/blog/Blog';
+import Blog from '../components/Blog/Blog';
 import BecomeSponsars from '../components/BecomeSponsars/BecomeSponsars';
 import Footer from '../components/Footer';
 
