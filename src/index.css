@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary: #0183ff;
+  --secondary: #f5ca3d;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+@layer components {
+  .primary_btn {
+    @apply outline-none focus:outline-none bg-skin-primary rounded-full text-base lg:text-xl text-white font-medium px-5 py-2.5;
+  }
+  .secondary_btn {
+    @apply bg-[#F5CA3D] outline-none focus:outline-none rounded-full text-base lg:text-xl text-black font-medium px-5 py-2.5;
+  }
+  .outline_btn {
+    @apply bg-transparent outline-none focus:outline-none border-2 border-white rounded-full text-xl text-white font-medium px-5 py-2.5;
+  }
+}
